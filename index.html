@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachelor Bank</title>
+    <!-- Tailwind stylesheet link -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center text-5xl mt-8 mx-auto w-3/4">Welcome to <span
+                class="text-purple-500 font-semibold">Bachelor Bank</span></h1>
+    </header>
+    <main>
+        <section class="w-3/4 mx-auto mt-8">
+            <div class="w-3/4 mx-auto bg-red-100 rounded p-8">
+                <h2 class="font-semibold">Please Login</h2>
+                <input id="login-email"
+                    class="block p-2 my-4 rounded w-3/4 focus:outline-none focus:ring focus:border-blue-300"
+                    type="email" placeholder="email">
+                <input id="login-password"
+                    class="block p-2 my-4 rounded w-3/4 focus:outline-none focus:ring focus:border-blue-300"
+                    type="password" placeholder="password">
+                <button id="login-button" class="bg-yellow-600 px-6 py-2 rounded text-white">Login</button>
+            </div>
+        </section>
+    </main>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
